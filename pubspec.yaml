@@ -1,0 +1,20 @@
+name: flutter_clean_starter_cli
+description: A Dart CLI tool to bootstrap clean feature-first architecture Flutter applications with Riverpod, GoRouter, and Dio.
+version: 1.0.0
+homepage: https://github.com/lekthedeveloper/flutter_clean_starter_cli
+repository: https://github.com/lekthedeveloper/flutter_clean_starter_cli
+issue_tracker: https://github.com/lekthedeveloper/flutter_clean_starter_cli/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+executables:
+  flutter_clean_cli: flutter_clean_starter_cli
+  flutter_clean_starter_cli: flutter_clean_starter_cli
+
+dependencies:
+  args: ^2.5.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0
